@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauuuu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="logica.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div>
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="d-flex flex-column mb-3">
+                <h1> Convierte la temperatura a grados Celsius / grados Fahrenheit / grados Kelvin</h1>
+                <label for="inputGrados">Ingresa la temperatura en Grados Celsius: </label>
+                <input id="inputGrados" class="form-control-sm" type="number" placeholder="Ingresa la temperatura ...">
+            </div>
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <button type="button" class="btn btn-primary" id="convertirTemp">convertir</button>
+            </div>
+            <ul id="resultado"></ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
